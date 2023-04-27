@@ -1,8 +1,11 @@
+
+import kel.Acronym;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hi dan!");
-        System.out.println("poopy stinky");
+        Acronym faq = new Acronym("this is my phrase");
+        String foo = faq.get()
+        System.out.println(foo);
     }
-    String myvariablestring = "anyword";
 
 }
